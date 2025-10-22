@@ -70,7 +70,7 @@ services:
     networks:
       - sentiment-network
 
-  # PostgreSQL for Airflow
+  # Airflow PostgreSQL Database
   postgres:
     image: postgres:13
     container_name: airflow-postgres
@@ -83,28 +83,16 @@ services:
     networks:
       - sentiment-network
 
-  # Airflow
   airflow:
     image: my-airflow:latest
     container_name: airflow_local
-    depends_on:
-      - postgres
     volumes:
       - ./airflow:/opt/airflow
     ports:
       - "8080:8080"
     command: airflow standalone
-    environment:
-      REDDIT_CLIENT_ID: "NhZg0JpU18kOWyPK4uoSBA"
-      REDDIT_CLIENT_SECRET: "GZ2-rrSlkvy_RT2xU7QdcuU6ldfwqg"
-      REDDIT_USER_AGENT: "sentiment-analysis-bot/1.0"
-     # TWITTER_BEARER_TOKEN: "your_twitter_bearer_token"
-      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
-      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "false"
-    networks:
-      - sentiment-network
-
 volumes:
+
   es-data:
   postgres-data:
 
