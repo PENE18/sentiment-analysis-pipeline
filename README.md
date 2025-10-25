@@ -311,7 +311,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yPEN18](https://github.com/PENE18)
+- GitHub: [@PEN18](https://github.com/PENE18)
 - LinkedIn: [mamadoupene495](https://www.linkedin.com/in/mamadoupene495/)
 
 ## 🙏 Acknowledgments
