@@ -53,29 +53,6 @@ This project demonstrates a complete streaming analytics pipeline that:
 └─────────────┘
 ```
 
-## 🛠️ Tech Stack
-
-| Component | Technology | Purpose |
-|-----------|-----------|---------|
-| **Orchestration** | Apache Airflow 2.8.4 | Workflow scheduling and monitoring |
-| **Streaming** | Apache Kafka 7.5.0 | Real-time message broker |
-| **Processing** | Apache Spark 3.5.0 | Distributed stream processing |
-| **AI/ML** | Hugging Face Transformers | Sentiment classification (DistilBERT) |
-| **Storage** | Elasticsearch 8.11.0 | Document store and search engine |
-| **Visualization** | Kibana 8.11.0 | Interactive dashboards |
-| **Containerization** | Docker & Docker Compose | Portable deployment |
-| **Language** | Python 3.10 | Pipeline implementation |
-
-## ✨ Features
-
-- ✅ **Fully Dockerized** - No complex local setup required
-- ✅ **Real-time Processing** - Analyze data as it arrives
-- ✅ **AI-Powered** - State-of-the-art sentiment classification
-- ✅ **Production Ready** - Includes error handling, logging, and monitoring
-- ✅ **Scalable** - Easy to add more workers and partitions
-- ✅ **API Integration** - Supports Reddit and Twitter APIs
-- ✅ **Sample Data** - Works out-of-the-box without API keys
-- ✅ **Interactive Dashboards** - Real-time visualization with Kibana
 
 ## 🚀 Quick Start
 
@@ -284,6 +261,30 @@ docker-compose restart spark
 # Check for errors
 docker-compose logs airflow | grep ERROR
 ```
+## 🛠️ Tech Stack
+
+| Component | Technology | Purpose |
+|-----------|-----------|---------|
+| **Orchestration** | Apache Airflow 2.8.4 | Workflow scheduling and monitoring |
+| **Streaming** | Apache Kafka 7.5.0 | Real-time message broker |
+| **Processing** | Apache Spark 3.5.0 | Distributed stream processing |
+| **AI/ML** | Hugging Face Transformers | Sentiment classification (DistilBERT) |
+| **Storage** | Elasticsearch 8.11.0 | Document store and search engine |
+| **Visualization** | Kibana 8.11.0 | Interactive dashboards |
+| **Containerization** | Docker & Docker Compose | Portable deployment |
+| **Language** | Python 3.10 | Pipeline implementation |
+
+## ✨ Features
+
+- ✅ **Fully Dockerized** - No complex local setup required
+- ✅ **Real-time Processing** - Analyze data as it arrives
+- ✅ **AI-Powered** - State-of-the-art sentiment classification
+- ✅ **Production Ready** - Includes error handling, logging, and monitoring
+- ✅ **Scalable** - Easy to add more workers and partitions
+- ✅ **API Integration** - Supports Reddit and Twitter APIs
+- ✅ **Sample Data** - Works out-of-the-box without API keys
+- ✅ **Interactive Dashboards** - Real-time visualization with Kibana
+
 
 ## 📚 Learning Resources
 
