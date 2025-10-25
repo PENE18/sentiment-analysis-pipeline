@@ -3,3 +3,5 @@ praw==7.7.1
 tweepy==4.14.0
 requests==2.31.0
 elasticsearch==8.11.0
+pyspark
+transformers
