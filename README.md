@@ -89,11 +89,12 @@ This project demonstrates a complete streaming analytics pipeline that:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/sentiment-analysis-pipeline.git
+git clone https://github.com/PENE18/sentiment-analysis-pipeline.git
 cd sentiment-analysis-pipeline
 
 # 2. Build and start all services
-docker-compose build
+docker build -t my-airflow .
+docker compose build spark
 docker-compose up -d
 
 # 3. Wait 3-5 minutes for services to initialize
