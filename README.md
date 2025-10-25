@@ -200,12 +200,12 @@ docker-compose up -d
 docker-compose logs -f
 
 # Specific service
-docker-compose logs -f spark-streaming
-docker-compose logs -f airflow-scheduler
+docker-compose logs -f spark
+docker-compose logs -f airflow
 docker-compose logs -f kafka
 
 # Last 100 lines
-docker-compose logs --tail=100 spark-streaming
+docker-compose logs --tail=100 spark
 ```
 
 ### Check Service Health
@@ -234,7 +234,7 @@ docker-compose down
 docker-compose down -v
 
 # Restart specific service
-docker-compose restart spark-streaming
+docker-compose restart spark
 
 # Rebuild after code changes
 docker-compose up -d --build
@@ -276,16 +276,13 @@ docker exec -it kafka kafka-console-consumer \
   --max-messages 5
 
 # Restart Spark
-docker-compose restart spark-streaming
+docker-compose restart spark
 ```
 
 ### Airflow DAG not showing
 ```bash
 # Check for errors
-docker-compose logs airflow-scheduler | grep ERROR
-
-# Verify DAG file
-docker exec -it airflow-webserver airflow dags list
+docker-compose logs airflow | grep ERROR
 ```
 
 ## 🚀 Advanced Usage
