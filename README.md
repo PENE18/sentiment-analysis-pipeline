@@ -53,6 +53,21 @@ This project demonstrates a complete streaming analytics pipeline that:
 └─────────────┘
 ```
 
+## 🔧 Configuration
+
+###  Reddit API Setup
+
+To use real Reddit data instead of sample data:
+
+1. Create a Reddit app at https://www.reddit.com/prefs/apps
+2. Create a `.env` file in the project root:
+
+```bash
+REDDIT_CLIENT_ID=your_client_id
+REDDIT_CLIENT_SECRET=your_client_secret
+REDDIT_USER_AGENT=sentiment-analysis-bot/1.0
+```
+
 
 ## 🚀 Quick Start
 
@@ -118,22 +133,9 @@ sentiment-analysis-pipeline/
 └── data/                       # Shared data directory
 ```
 
-## 🔧 Configuration
 
-###  Reddit API Setup
 
-To use real Reddit data instead of sample data:
-
-1. Create a Reddit app at https://www.reddit.com/prefs/apps
-2. Create a `.env` file in the project root:
-
-```bash
-REDDIT_CLIENT_ID=your_client_id
-REDDIT_CLIENT_SECRET=your_client_secret
-REDDIT_USER_AGENT=sentiment-analysis-bot/1.0
-```
-
-3. Restart services:
+ Restart services:
 ```bash
 docker-compose down
 docker-compose up -d
