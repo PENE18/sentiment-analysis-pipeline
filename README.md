@@ -340,8 +340,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/PENE18)
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/mamadoupene495/)
+- GitHub: [@yPEN18](https://github.com/PENE18)
+- LinkedIn: [mamadoupene495](https://www.linkedin.com/in/mamadoupene495/)
 
 ## 🙏 Acknowledgments
 
