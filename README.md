@@ -161,18 +161,6 @@ REDDIT_USER_AGENT=sentiment-analysis-bot/1.0
 docker-compose down
 docker-compose up -d
 ```
-
-### Optional: Twitter API Setup
-
-To use real Twitter data:
-
-1. Get Twitter API Bearer Token from https://developer.twitter.com/
-2. Add to `.env`:
-
-```bash
-TWITTER_BEARER_TOKEN=your_bearer_token
-```
-
 ## 📊 Sample Output
 
 ### Spark Processing Logs
