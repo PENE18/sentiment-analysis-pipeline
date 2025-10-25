@@ -143,7 +143,7 @@ sentiment-analysis-pipeline/
 
 ## 🔧 Configuration
 
-### Optional: Reddit API Setup
+###  Reddit API Setup
 
 To use real Reddit data instead of sample data:
 
