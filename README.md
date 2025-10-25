@@ -10,7 +10,7 @@ A complete **DataOps + AI** production-ready pipeline for real-time sentiment an
 ## 🎯 Overview
 
 This project demonstrates a complete streaming analytics pipeline that:
-- **Ingests** text data from Reddit/Twitter APIs or sample data
+- **Ingests** text data from Reddit APIs 
 - **Streams** data through Apache Kafka
 - **Processes** in real-time using Apache Spark Streaming
 - **Analyzes** sentiment using Hugging Face Transformers (DistilBERT)
