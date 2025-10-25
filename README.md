@@ -117,7 +117,7 @@ open http://localhost:8080
 # - Click the play button to trigger
 
 # 3. Watch Spark process the data
-docker-compose logs -f spark-streaming
+docker-compose logs -f spark
 
 # 4. View results in Kibana
 open http://localhost:5601
