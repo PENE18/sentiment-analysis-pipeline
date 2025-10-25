@@ -285,36 +285,6 @@ docker-compose restart spark
 docker-compose logs airflow | grep ERROR
 ```
 
-## 🚀 Advanced Usage
-
-### Scale Kafka Partitions
-```bash
-docker exec -it kafka kafka-topics \
-  --bootstrap-server localhost:9092 \
-  --alter \
-  --topic text-stream \
-  --partitions 3
-```
-
-### Add More Spark Workers
-Edit `docker-compose.yml` and add:
-```yaml
-spark-worker:
-  image: bitnami/spark:3.5.0
-  environment:
-    - SPARK_MODE=worker
-    - SPARK_MASTER_URL=spark://spark-streaming:7077
-```
-
-### Custom Sentiment Model
-Edit `spark/spark_streaming.py`:
-```python
-sentiment_analyzer = pipeline(
-    "sentiment-analysis",
-    model="cardiffnlp/twitter-roberta-base-sentiment-latest"
-)
-```
-
 ## 📚 Learning Resources
 
 - [Apache Kafka Documentation](https://kafka.apache.org/documentation/)
