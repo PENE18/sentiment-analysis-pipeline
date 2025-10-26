@@ -122,6 +122,8 @@ docker-compose logs -f spark
 open http://localhost:5601
 ```
 
+![Description of image](Capture/airflow1.PNG)
+
 ## 📁 Project Structure
 
 ```
