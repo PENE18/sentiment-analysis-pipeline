@@ -129,7 +129,7 @@ docker-compose up -d
 ## 📊 Sample Output
 
 ### Spark Processing Logs
-
+[![Watch the demo](https://img.shields.io/badge/🎬_Watch%20Demo-blue?style=for-the-badge)](https://drive.google.com/file/d/1m8KZRJBBv6YexZviV_KjYsFWzpWaqM7g/view?usp=sharing)
 ![Description of image](Capture/SPARK-MODEL-NRT.PNG)
    ──────────────────────────────────────────────────────────────────
 
@@ -138,6 +138,8 @@ docker-compose up -d
 - **Sentiment Distribution**: Pie chart showing positive/negative/neutral breakdown
 - **Source Analysis**: Bar chart by platform (Reddit/Twitter/Sample)
 - **Top Keywords**: Word cloud of most common terms
+
+[![Watch the demo](https://img.shields.io/badge/🎬_Watch%20Demo-blue?style=for-the-badge)](https://drive.google.com/file/d/1isHvlaul4CSketCUYLksRhJToRnuKujY/view?usp=sharing)
 ![Description of image](Capture/FINAL.PNG)  
 
 ## 🔍 Monitoring
