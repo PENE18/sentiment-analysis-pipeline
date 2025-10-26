@@ -67,7 +67,7 @@ REDDIT_CLIENT_ID=your_client_id
 REDDIT_CLIENT_SECRET=your_client_secret
 REDDIT_USER_AGENT=sentiment-analysis-bot/1.0
 ```
-
+[![Watch the demo](https://img.shields.io/badge/🎬_Watch%20Demo-blue?style=for-the-badge)](https://drive.google.com/file/d/1fFbAhxyHGXSqBRPWZwEwxBZjoUl3PwSi/view?usp=sharing)
 
 ## 🚀 Quick Start
 
