@@ -121,26 +121,6 @@ open http://localhost:5601
 
 ![Description of image](Capture/airflow1.PNG)
 
-## 📁 Project Structure
-
-```
-sentiment-analysis-pipeline/
-├── docker-compose.yml           # All services configuration
-├── README.md                    # This file
-├── .env.example                 # Environment variables template
-├── airflow/
-│   ├── Dockerfile              # Airflow container image
-│   ├── requirements.txt        # Python dependencies
-│   └── dags/
-│       └── data_ingestion_dag.py  # Data ingestion workflow
-├── spark/
-│   ├── Dockerfile              # Spark container image
-│   └── spark_streaming.py      # Sentiment analysis processor
-└── data/                       # Shared data directory
-```
-
-
-
  Restart services:
 ```bash
 docker-compose down
