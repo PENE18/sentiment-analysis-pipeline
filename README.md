@@ -136,9 +136,9 @@ docker-compose up -d
 
 ### Kibana Dashboard Metrics
 - **Sentiment Distribution**: Pie chart showing positive/negative/neutral breakdown
-- **Trends Over Time**: Line chart showing sentiment changes
 - **Source Analysis**: Bar chart by platform (Reddit/Twitter/Sample)
 - **Top Keywords**: Word cloud of most common terms
+![Description of image](Capture/FINAL.PNG)  
 
 ## 🔍 Monitoring
 
