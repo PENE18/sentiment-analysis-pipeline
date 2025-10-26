@@ -100,7 +100,7 @@ docker-compose ps
 
 ## 🎬 **Demo video:** [View on Google Drive](https://drive.google.com/file/d/1tx9m4MD84qV8kx0_JTa8bnu2F-ifHeyX/view?usp=sharing)
 
-[![Watch the demo](https://img.shields.io/badge/🎬_Watch%20Demo-blue?style=for-the-badge)](https://drive.google.com/file/d/1AbCdEFGhijkLmn/view?usp=sharing)
+[![Watch the demo](https://img.shields.io/badge/🎬_Watch%20Demo-blue?style=for-the-badge)](https://drive.google.com/file/d/1tx9m4MD84qV8kx0_JTa8bnu2F-ifHeyX/view?usp=sharing)
 
 
 
