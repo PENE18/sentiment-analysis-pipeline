@@ -102,9 +102,6 @@ docker-compose ps
 
 ![Description of image](Capture/build.PNG)
 
-
-
-
 ### Running the Pipeline
 
 ```bash
@@ -152,26 +149,10 @@ docker-compose up -d
 ## 📊 Sample Output
 
 ### Spark Processing Logs
-```
-======================================================================
-📦 Processing batch 0
-======================================================================
-   📊 Found 30 messages to analyze
-   😊 reddit_abc123... → POSITIVE (0.98)
-      Text: I love this new AI technology! It's revolutionary...
-   😞 reddit_def456... → NEGATIVE (0.95)
-      Text: Terrible experience. Would not recommend...
-   😐 reddit_ghi789... → NEUTRAL (0.65)
-      Text: It's okay, nothing special but does the job...
-   
+
+![Description of image](Capture/SPARK-MODEL-NRT.PNG)
    ──────────────────────────────────────────────────────────────────
-   ✅ Batch Summary:
-   📈 Indexed: 30 documents
-   😊 Positive: 12
-   😐 Neutral: 10
-   😞 Negative: 8
-   ──────────────────────────────────────────────────────────────────
-```
+
 
 ### Kibana Dashboard Metrics
 - **Sentiment Distribution**: Pie chart showing positive/negative/neutral breakdown
