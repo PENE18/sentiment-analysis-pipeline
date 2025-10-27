@@ -20,7 +20,7 @@ This project demonstrates a complete streaming analytics pipeline that:
 
 ## 🏗️ Architecture
 
-![Description of image](Capture/Pipeline.PNG)
+![Description of image](Capture/Pipeline.png)
 
 ## 🔧 Configuration
 
